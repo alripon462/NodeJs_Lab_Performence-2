@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Registraation Page</title>
+</head>
+<body>
+	<div>
+			<h2>Registration Page</h2> 		
+	</div>
+
+	<a href="/login">Back</a> |
+
+	
+	<form method="post">
+		<table>
+			<tr>
+				<td>ID: </td>
+				<td><input type="text" readonly name="id" ></td>
+			</tr>
+			<tr>
+				<td>Username: </td>
+				<td><input type="text" name="username" ></td>
+			</tr>
+			<tr>
+				<td>Password: </td>
+				<td><input type="text" name="password" ></td>
+			</tr>
+			<tr>
+				<td>Type: </td>
+				<td><select name="type" id="Type" style="width: 100%;">
+ 					<option selected hidden disabled >Select Position</option>
+  					<option value="Admin">Admin</option>
+  					<option value="Customer">Customer</option>
+					</select></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="submit" name="" value="Register"> 
+				</td>
+			</tr>
+		</table>
+	</form>
+
+
+</body>
+</html>

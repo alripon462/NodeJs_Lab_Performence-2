@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Medicine</title>
+</head>
+<body>
+	<div>
+			<h2>Add Medicine</h2> 		
+	</div>
+
+	<a href="/home">Back</a> |
+	<a href="/logout">Logout</a><br>
+	
+	<form method="post">
+		<table>
+			<tr>
+				<td>ID: </td>
+				<td><input type="text" readonly name="id" ></td>
+			</tr>
+			<tr>
+				<td>Medicine name: </td>
+				<td><input type="text" name="medicinename" ></td>
+			</tr>
+			<tr>
+				<td>Price: </td>
+				<td><input type="text" name="price" ></td>
+			</tr>
+			<tr>
+				<td>Type: </td>
+				<td><select name="type" id="Type" style="width: 100%;">
+ 					<option selected hidden disabled >Select Category</option>
+  					<option value="Liquid">Liquid</option>
+  					<option value="Solid">Solid</option>
+					</select></td>
+			</tr>
+			<tr>
+				<td>Vendor Name: </td>
+				<td><input type="text" name="vendor" ></td>
+			</tr>
+			<tr>
+				<td>Description: </td>
+				<td><input type="text" name="description" ></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="submit" name="" value="Add"> 
+				</td>
+			</tr>
+		</table>
+	</form>
+
+
+</body>
+</html>
